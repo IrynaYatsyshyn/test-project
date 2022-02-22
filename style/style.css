@@ -11,7 +11,6 @@
 body {
     height: 100%;
     padding: 0;
-    margin-top: 40px;
 }
 
 li, a, select, h1, h2, p {
@@ -124,7 +123,12 @@ h1 {
 }
 
 .creative-images img {
-    padding: 20px;
+    padding: 8px;
+}
+
+.creative-images-box {
+    display: flex;
+    justify-content: center;
 }
 
 .creative-content ul {

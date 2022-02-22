@@ -1,6 +1,6 @@
 /*ADAPTIVE*/
 @media (max-width: 1152px) {
-    .spirit-content, .btn-about, .btn-about ul, .footer-content, .creative-images {
+    .spirit-content, .btn-about, .btn-about ul, .footer-content, .creative-images-box {
         height: auto;
         flex-direction: column;
         align-items: center;
@@ -16,6 +16,12 @@
         top: 0;
         left: 0;
         padding: 25px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .creative-images img {
+        width: 300px;
     }
 }
 
@@ -48,8 +54,7 @@
 
     .creative-images img {
         padding: 0;
-        width: 300px;
-        height: 250px;
+        margin: 10px;
     }
 }
 
